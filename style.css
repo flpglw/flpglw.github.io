@@ -1,0 +1,80 @@
+body {
+	background: #2c3e50
+}
+
+div {
+	margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+.button5 {background-color: #555555;} /* Black */
+
+.button4 {
+  transition-duration: 0.4s;
+}
+
+.button4:hover {
+  background-color: #e67e22; /* Green */
+  color: white;
+}
+
+h1 { 
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 28px; font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; line-height: 26.4px; 
+	color: #fc953a;
+} 
+
+h2 { 
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 20px; font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; line-height: 26.4px; 
+	color: white;
+} 
+
+h3 { 
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 14px; font-style: normal; 
+	font-variant: normal; font-weight: 700; 
+	line-height: 15.4px; 
+	color: white;
+} 
+
+h4 { 
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 10px; font-style: normal; 
+	font-variant: normal; font-weight: 700; 
+	line-height: 15.4px; 
+	color: white;
+} 
+
+p { 
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 14px; font-style: normal; 
+	font-variant: normal; font-weight: 400; 
+	line-height: 20px; } 
+
+blockquote { 
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 21px; font-style: normal; 
+	font-variant: normal; font-weight: 400; 
+	line-height: 30px; } 
+
+pre { font-family: Verdana, Geneva, sans-serif; 
+	font-size: 13px; font-style: normal; font-variant: normal; 
+	font-weight: 400; line-height: 18.5714px; }
