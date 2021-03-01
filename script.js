@@ -2,11 +2,35 @@ let buttons = document.querySelectorAll('button')
 
 new ClipboardJS(buttons);
 
-function myFunction() {
+function partStandards() {
+  var x = document.getElementById("divStandards");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function partRetail() {
   var x = document.getElementById("divRetail");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
     x.style.display = "none";
   }
+}
+
+function partHBS() {
+  var x = document.getElementById("divHBS");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+{
+	document.getElementById("divStandards").style.display = "none";
+	document.getElementById("divRetail").style.display = "none";
+	document.getElementById("divHBS").style.display = "none";
 }

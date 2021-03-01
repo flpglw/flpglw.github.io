@@ -17,6 +17,27 @@ button {
   font-size: 16px;
 }
 
+.button1 {font-size: 28px;}
+.button1 {background-color: #F57E1B;} /* Orange */
+.button1 {border-radius: 25px;}
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button1 {
+  transition-duration: 0.4s;
+}
+
+.button1:hover {
+  background-color: #9C816B; /* DarkOrange */
+  color: white;
+}
+
+
+
+
+
+
+
 .button2 {background-color: #008CBA;} /* Blue */
 .button3 {background-color: #f44336;} /* Red */ 
 .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
