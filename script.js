@@ -29,8 +29,18 @@ function partHBS() {
   }
 }
 
+function partChat() {
+  var x = document.getElementById("divChat");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 {
 	document.getElementById("divStandards").style.display = "none";
 	document.getElementById("divRetail").style.display = "none";
 	document.getElementById("divHBS").style.display = "none";
+	document.getElementById("divChat").style.display = "none";
 }
