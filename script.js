@@ -38,9 +38,19 @@ function partChat() {
   }
 }
 
+function partXOS() {
+  var x = document.getElementById("divXOS");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 {
 	document.getElementById("divStandards").style.display = "none";
 	document.getElementById("divRetail").style.display = "none";
 	document.getElementById("divHBS").style.display = "none";
 	document.getElementById("divChat").style.display = "none";
+  document.getElementById("divXOS").style.display = "none";
 }
